@@ -29,3 +29,5 @@ However...
 
 This product interacts with the YouTube APIs directly.
 This, however, is against Google's terms of service.
+
+# [Apply to become a developer](https://forms.gle/brJH85y9qxqZqsZd8)
