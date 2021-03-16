@@ -3,6 +3,9 @@
 This extension aims to bring back the old YouTube layout.
 Not just the one from 2016, but also old layouts from 2012-2015.
 
+# [Apply to become a developer](https://forms.gle/brJH85y9qxqZqsZd8)
+# [Discord Server](https://discord.gg/Bsvy7GbYZt)
+
 # Reminder
 
 This project is in VERY early stages.
@@ -29,5 +32,3 @@ However...
 
 This product interacts with the YouTube APIs directly.
 This, however, is against Google's terms of service.
-
-# [Apply to become a developer](https://forms.gle/brJH85y9qxqZqsZd8)
