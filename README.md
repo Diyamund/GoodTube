@@ -17,6 +17,8 @@ However there are some debug pages.
 
 [2013 Player Test](https://www.youtube.com/gt/debug/2013/playertest) Test of the 2013 player. Broken.
 
+(update: the 2016 watchtest doesn't even load lmfao)
+
 # Why it's Good
 
 We're not just restyling the current layout to look like the old one.
