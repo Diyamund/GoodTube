@@ -1,0 +1,38 @@
+{
+  "name": "Old YouTube Script",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [ {
+      "js": [ "main.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_start"
+  },
+	{
+      "js": [ "2013/playertest/gt-playertest-inject.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_start"
+  },
+	{
+      "js": [ "2016/watchtest.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_start"
+  }],
+  "externally_connectable": {
+	"matches": ["*://www.youtube.com/*"]
+  },
+  "web_accessible_resources": [
+		"cssbin/*",
+		"*",
+		"2016/*",
+		"/2016/*"
+	],
+  "description": "Example",
+  "homepage_url": "http://example.com",
+  "background": {
+    "scripts": [
+      "mainbackground.js"
+    ],
+    "persistent": true
+  },
+  "permissions": ["https://www.youtube.com/*", "storage", "webRequest", "webRequestBlocking", "webNavigation", "activeTab"]
+}
