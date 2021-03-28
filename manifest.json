@@ -1,12 +1,22 @@
 {
-  "name": "Old YouTube Script",
+  "name": "GoodTube",
   "version": "1.0.0",
   "manifest_version": 2,
   "content_scripts": [ {
       "js": [ "main.js" ],
-      "matches": [ "*://www.youtube.com/*" ],
+      "matches": [ "*://www.youtube.com/" ],
       "run_at": "document_start"
   },
+        {
+       "js": [ "errorpage.js" ],
+       "matches": [ "*://www.youtube.com/error*" ],
+       "run_at": "document_start"
+},
+       {
+      "js": [ "watch.js" ],
+      "matches": [ "*://www.youtube.com/watch*" ],
+      "run_at": "document_start"
+},
 	{
       "js": [ "2013/playertest/gt-playertest-inject.js" ],
       "matches": [ "*://www.youtube.com/*" ],
@@ -34,5 +44,13 @@
     ],
     "persistent": true
   },
-  "permissions": ["https://www.youtube.com/*", "storage", "webRequest", "webRequestBlocking", "webNavigation", "activeTab"]
+  "permissions": ["https://www.youtube.com/*", "storage", "webRequest", "webRequestBlocking", "webNavigation", "activeTab", "tabs"],
+  "icons": {
+    "16": "icons/16x.png",
+    "24": "icons/24x.png",
+    "32": "icons/32x.png",
+    "48": "icons/48x.png",
+    "64": "icons/64x.png",
+    "128": "icons/128x.png"
+  }
 }

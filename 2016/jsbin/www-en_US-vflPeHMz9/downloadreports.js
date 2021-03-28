@@ -1,0 +1,2 @@
+(function(g){var window=this;var Ala=function(a){a.preventDefault();var b=a.currentTarget,c=g.E(b,"tab-id");(0,g.z)(g.J("download-reports-nav-item"),function(a){g.cp(a,"selected",a==b)});
+(0,g.z)(g.J("download-reports-table-container"),function(a){g.cp(a,"hid",g.E(a,"tab-id")!=c)})};g.Zh(g.uq({name:"www/downloadreports",deps:["www/common"],page:"download_reports",init:function(){g.nB(g.eE);g.P(g.K("download-reports-nav"),"click",Ala,"download-reports-nav-item")}}));})(_yt_www);
