@@ -36,7 +36,7 @@
 		"2016/*",
 		"/2016/*"
 	],
-  "description": "Example",
+  "description": "Extension to bring back the old YouTube layout.",
   "homepage_url": "http://example.com",
   "background": {
     "scripts": [
